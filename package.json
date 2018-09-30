@@ -1,0 +1,43 @@
+{
+  "name": "readfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "ENV=test ./node_modules/.bin/mocha tests/*.js --timeout 5000",
+    "start": "ENV=live node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-ws": "^4.0.0",
+    "livr": "^2.1.0",
+    "multi-progress": "git+https://github.com/LypkoAlex/multi-progress.git",
+    "nodemon": "^1.18.3",
+    "optimist": "^0.6.1",
+    "querystring": "^0.2.0",
+    "uuid": "^3.3.2",
+    "websocket": "^1.0.26"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "chai": "^1.10.0",
+    "eslint": "~2.2.0",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.2",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-class-properties": "^6.6.0",
+    "babel-plugin-transform-decorators": "^6.6.5",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-plugin-transform-runtime": "^6.7.5",
+    "body-parser": "^1.18.3",
+    "escope": "^3.6.0"
+  }
+}
